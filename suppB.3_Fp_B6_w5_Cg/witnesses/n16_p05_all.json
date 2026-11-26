@@ -1,0 +1,638 @@
+{
+  "format": "signed-add-circuit-v1",
+  "prime": 5,
+  "matrix": [
+    [
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "gates": [
+    {
+      "left": 0,
+      "right": 9,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 1,
+      "right": 8,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 1,
+      "right": 9,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 2,
+      "right": 11,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 3,
+      "right": 10,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 3,
+      "right": 11,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 4,
+      "right": 13,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 5,
+      "right": 12,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 5,
+      "right": 13,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 6,
+      "right": 15,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 7,
+      "right": 14,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 7,
+      "right": 15,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 0,
+      "right": 17,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 20,
+      "right": 28,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 4,
+      "right": 18,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 19,
+      "right": 30,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 2,
+      "right": 20,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 23,
+      "right": 32,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 6,
+      "right": 21,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 22,
+      "right": 34,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 4,
+      "right": 23,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 26,
+      "right": 36,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 8,
+      "right": 24,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 25,
+      "right": 38,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 6,
+      "right": 16,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 26,
+      "right": 40,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 10,
+      "right": 17,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "left": 27,
+      "right": 42,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 8,
+      "right": 16,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 19,
+      "right": 44,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 12,
+      "right": 18,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "left": 20,
+      "right": 46,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 10,
+      "right": 19,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 22,
+      "right": 48,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 14,
+      "right": 21,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "left": 23,
+      "right": 50,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 12,
+      "right": 22,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 25,
+      "right": 52,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 0,
+      "right": 24,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "left": 26,
+      "right": 54,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 14,
+      "right": 17,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 25,
+      "right": 56,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 2,
+      "right": 16,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "left": 27,
+      "right": 58,
+      "left_sign": -1,
+      "right_sign": 1
+    }
+  ],
+  "outputs": [
+    {
+      "signal": 29,
+      "sign": 1
+    },
+    {
+      "signal": 31,
+      "sign": 1
+    },
+    {
+      "signal": 33,
+      "sign": 1
+    },
+    {
+      "signal": 35,
+      "sign": 1
+    },
+    {
+      "signal": 37,
+      "sign": 1
+    },
+    {
+      "signal": 39,
+      "sign": 1
+    },
+    {
+      "signal": 41,
+      "sign": 1
+    },
+    {
+      "signal": 43,
+      "sign": 1
+    },
+    {
+      "signal": 45,
+      "sign": 1
+    },
+    {
+      "signal": 47,
+      "sign": 1
+    },
+    {
+      "signal": 49,
+      "sign": 1
+    },
+    {
+      "signal": 51,
+      "sign": 1
+    },
+    {
+      "signal": 53,
+      "sign": 1
+    },
+    {
+      "signal": 55,
+      "sign": 1
+    },
+    {
+      "signal": 57,
+      "sign": 1
+    },
+    {
+      "signal": 59,
+      "sign": 1
+    }
+  ],
+  "gate_count": 44,
+  "depth": 3,
+  "origin": "Previously verified exact rectangle implementation",
+  "verification": {
+    "verified": true,
+    "gates": 44,
+    "depth": 3,
+    "integer_identity": true,
+    "verified_moduli": [
+      5
+    ]
+  }
+}

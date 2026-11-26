@@ -1,0 +1,24 @@
+{
+  "prepared_utc": "2026-11-25T11:10:03.721794+00:00",
+  "tasks": 12,
+  "budget_seconds_per_weight_n_p": 600,
+  "arithmetic_and_depth_modes": "field/integer, unrestricted/depth<=3 share the same600s",
+  "candidate_protocol": "Incumbents first. Alternate shuffled saved matrix records with fresh uniform normalized signed supports, deduplicated by affine equivalence. Not an exhaustive large-order matrix search; no rectangle-cost filtering of fresh proposals.",
+  "restart_protocol": "Four arithmetic/depth arms per new legal matrix at seed0. After every four new legal matrices, revisit a randomly selected member of the best-four matrix frontier with its next seed. No extra time budget per arm.",
+  "baseline": "Preserve prior rectangle circuits and verified lifts of small searched circuits.",
+  "clock": "Active task elapsed time, including candidate checks, construction, verification and I/O; queue excluded.",
+  "pool_sizes": {
+    "w4_n32": 194,
+    "w4_n64": 844,
+    "w5_n32": 231,
+    "w5_n64": 575
+  },
+  "source_sha256": {
+    "algebra_snapshot.py": "154e4ae0a64eb6c5f32060a2d1b10cd395dafcdfc27bc5510f8af9c32d8b3d60",
+    "signed_paar.py": "b4c76120064d35567602cafb8cb10bd5a9b795339e9f5a40ec4b71a151b1b1ef",
+    "verify_circuit.py": "56dd08c688c5f51dc33980bb8ea3f793ec4b094f080614f2aa0f41c9cbba4694"
+  },
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "manuscript_edits": false,
+  "repository_edits": false
+}
