@@ -1,0 +1,178 @@
+{
+  "format": "signed-add-circuit-v1",
+  "prime": 5,
+  "matrix": [
+    [
+      1,
+      -1,
+      -1,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0,
+      1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      1
+    ]
+  ],
+  "gates": [
+    {
+      "left": 0,
+      "right": 1,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 0,
+      "right": 3,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 2,
+      "right": 5,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 3,
+      "right": 4,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 1,
+      "right": 2,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "left": 7,
+      "right": 10,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 1,
+      "right": 2,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 9,
+      "right": 12,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 8,
+      "right": 9,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 4,
+      "right": 5,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "left": 7,
+      "right": 15,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 4,
+      "right": 5,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 6,
+      "right": 17,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 6,
+      "right": 8,
+      "left_sign": -1,
+      "right_sign": -1
+    }
+  ],
+  "outputs": [
+    {
+      "signal": 11,
+      "sign": 1
+    },
+    {
+      "signal": 13,
+      "sign": 1
+    },
+    {
+      "signal": 14,
+      "sign": 1
+    },
+    {
+      "signal": 16,
+      "sign": 1
+    },
+    {
+      "signal": 18,
+      "sign": 1
+    },
+    {
+      "signal": 19,
+      "sign": 1
+    }
+  ],
+  "gate_count": 14,
+  "depth": 2,
+  "origin": "Previously verified exact rectangle implementation",
+  "verification": {
+    "verified": true,
+    "gates": 14,
+    "depth": 2,
+    "integer_identity": true,
+    "verified_moduli": [
+      5
+    ]
+  }
+}

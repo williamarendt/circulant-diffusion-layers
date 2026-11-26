@@ -1,0 +1,149 @@
+{
+  "format": "signed-add-circuit-v1",
+  "prime": 5,
+  "matrix": [
+    [
+      1,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    [
+      0,
+      1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      0,
+      1
+    ]
+  ],
+  "gates": [
+    {
+      "left": 0,
+      "right": 1,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 0,
+      "right": 2,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 3,
+      "right": 4,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 1,
+      "right": 3,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "left": 6,
+      "right": 8,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 1,
+      "right": 2,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 7,
+      "right": 10,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 6,
+      "right": 7,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "left": 3,
+      "right": 4,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 5,
+      "right": 13,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 2,
+      "right": 4,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 5,
+      "right": 15,
+      "left_sign": -1,
+      "right_sign": 1
+    }
+  ],
+  "outputs": [
+    {
+      "signal": 9,
+      "sign": 1
+    },
+    {
+      "signal": 11,
+      "sign": 1
+    },
+    {
+      "signal": 12,
+      "sign": 1
+    },
+    {
+      "signal": 14,
+      "sign": 1
+    },
+    {
+      "signal": 16,
+      "sign": 1
+    }
+  ],
+  "gate_count": 12,
+  "depth": 2,
+  "origin": "Previously verified exact rectangle implementation",
+  "verification": {
+    "verified": true,
+    "gates": 12,
+    "depth": 2,
+    "integer_identity": true,
+    "verified_moduli": [
+      5
+    ]
+  }
+}

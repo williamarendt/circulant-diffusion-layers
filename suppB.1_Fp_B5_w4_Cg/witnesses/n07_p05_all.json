@@ -1,0 +1,209 @@
+{
+  "format": "signed-add-circuit-v1",
+  "prime": 5,
+  "matrix": [
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ]
+  ],
+  "gates": [
+    {
+      "left": 0,
+      "right": 1,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 0,
+      "right": 5,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 1,
+      "right": 5,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 2,
+      "right": 3,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 4,
+      "right": 6,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 2,
+      "right": 4,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 7,
+      "right": 12,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 9,
+      "right": 10,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 10,
+      "right": 11,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 3,
+      "right": 4,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 8,
+      "right": 16,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 9,
+      "right": 11,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 2,
+      "right": 6,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 8,
+      "right": 19,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 3,
+      "right": 6,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 7,
+      "right": 21,
+      "left_sign": 1,
+      "right_sign": 1
+    }
+  ],
+  "outputs": [
+    {
+      "signal": 13,
+      "sign": 1
+    },
+    {
+      "signal": 14,
+      "sign": 1
+    },
+    {
+      "signal": 15,
+      "sign": 1
+    },
+    {
+      "signal": 17,
+      "sign": 1
+    },
+    {
+      "signal": 18,
+      "sign": 1
+    },
+    {
+      "signal": 20,
+      "sign": 1
+    },
+    {
+      "signal": 22,
+      "sign": 1
+    }
+  ],
+  "gate_count": 16,
+  "depth": 2,
+  "origin": "Previously verified exact rectangle implementation",
+  "verification": {
+    "verified": true,
+    "gates": 16,
+    "depth": 2,
+    "integer_identity": true,
+    "verified_moduli": [
+      5
+    ]
+  }
+}

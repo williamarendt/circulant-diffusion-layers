@@ -1,0 +1,239 @@
+{
+  "format": "signed-add-circuit-v1",
+  "algorithm": "signed Paar-style subset matching",
+  "prime": 3,
+  "seed": 25,
+  "max_depth": null,
+  "subset_limit": 6,
+  "matrix": [
+    [
+      1,
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      -1,
+      -1,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "gates": [
+    {
+      "left": 0,
+      "right": 7,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 1,
+      "right": 2,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 3,
+      "right": 4,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 5,
+      "right": 6,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 6,
+      "right": 8,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 11,
+      "right": 12,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 0,
+      "right": 9,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 8,
+      "right": 14,
+      "left_sign": -1,
+      "right_sign": -1
+    },
+    {
+      "left": 3,
+      "right": 14,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 2,
+      "right": 10,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 9,
+      "right": 17,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 3,
+      "right": 4,
+      "left_sign": 1,
+      "right_sign": -1
+    },
+    {
+      "left": 7,
+      "right": 11,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 5,
+      "right": 17,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 1,
+      "right": 12,
+      "left_sign": 1,
+      "right_sign": 1
+    },
+    {
+      "left": 11,
+      "right": 19,
+      "left_sign": -1,
+      "right_sign": 1
+    },
+    {
+      "left": 4,
+      "right": 20,
+      "left_sign": 1,
+      "right_sign": -1
+    }
+  ],
+  "outputs": [
+    {
+      "signal": 16,
+      "sign": 1
+    },
+    {
+      "signal": 18,
+      "sign": 1
+    },
+    {
+      "signal": 21,
+      "sign": 1
+    },
+    {
+      "signal": 23,
+      "sign": 1
+    },
+    {
+      "signal": 24,
+      "sign": 1
+    },
+    {
+      "signal": 13,
+      "sign": -1
+    },
+    {
+      "signal": 22,
+      "sign": -1
+    },
+    {
+      "signal": 15,
+      "sign": -1
+    }
+  ],
+  "gate_count": 17,
+  "depth": 3,
+  "verification": {
+    "verified": true,
+    "gates": 17,
+    "depth": 3,
+    "integer_identity": false,
+    "verified_moduli": [
+      3
+    ]
+  }
+}

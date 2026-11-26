@@ -1,0 +1,5 @@
+weight,n,prime,rectangle_minimum,initial_upper,direct_gates,direct_depth,audited_upper,audited_depth,depth3_upper,connected_upper,constructions,legal_sampled
+4,32,3,72,68,75,3,68,3,68,77,848,170
+4,32,5,72,72,74,3,72,2,72,72,888,178
+4,64,3,144,136,154,3,136,3,136,154,163,33
+4,64,5,144,144,149,3,144,2,144,144,168,35

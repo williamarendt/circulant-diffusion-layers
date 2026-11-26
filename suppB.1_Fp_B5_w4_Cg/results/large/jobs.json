@@ -1,0 +1,42 @@
+[
+  {
+    "id": "w4_n64_p03",
+    "weight": 4,
+    "branch": 5,
+    "n": 64,
+    "prime": 3,
+    "budget_seconds": 600,
+    "rectangle_minimum": 144,
+    "sampling_seed": 20307528
+  },
+  {
+    "id": "w4_n32_p05",
+    "weight": 4,
+    "branch": 5,
+    "n": 32,
+    "prime": 5,
+    "budget_seconds": 600,
+    "rectangle_minimum": 72,
+    "sampling_seed": 20304330
+  },
+  {
+    "id": "w4_n64_p05",
+    "weight": 4,
+    "branch": 5,
+    "n": 64,
+    "prime": 5,
+    "budget_seconds": 600,
+    "rectangle_minimum": 144,
+    "sampling_seed": 20307530
+  },
+  {
+    "id": "w4_n32_p03",
+    "weight": 4,
+    "branch": 5,
+    "n": 32,
+    "prime": 3,
+    "budget_seconds": 600,
+    "rectangle_minimum": 72,
+    "sampling_seed": 20304328
+  }
+]
