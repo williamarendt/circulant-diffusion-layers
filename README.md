@@ -3,8 +3,10 @@
 Code accompanying **Circulant Diffusion Layers: Cost Bounds and Rectangle Reuse**.
 The directories follow the paper's experimental subsections. In directory names,
 `B` denotes the branch number, `w` the row and column weight, and `Fp` an odd prime
-field. The solvers used in the recorded experiments are **Gurobi** and **HiGHS
-(through SciPy)**.
+field. The rectangle-packing experiments use **Gurobi** and **HiGHS
+(through SciPy)**. The supplementary general-circuit experiments use
+BP-family C++ heuristics and a locally implemented signed Paar-style Python
+heuristic, with independent matrix and circuit verification.
 
 | Directory | Setting | Main entry points |
 |---|---|---|
@@ -13,6 +15,9 @@ field. The solvers used in the recorded experiments are **Gurobi** and **HiGHS
 | [sec4.1.4_Fp_B4_w3](sec4.1.4_Fp_B4_w3/README.md) | Odd prime fields, weight three, branch number four | `verify_section41.py` |
 | [sec4.2.4_Fp_B5_w4](sec4.2.4_Fp_B5_w4/README.md) | Odd prime fields, weight four, branch number five | `audit_section424.py` |
 | [sec4.3.2_Fp_B6_w5](sec4.3.2_Fp_B6_w5/README.md) | Odd prime fields, weight five, branch number six | `run_odd_weight5_remaining.py`, `run_odd_weight5_power_two.py` |
+| [suppA.3_F2_Cg](suppA.3_F2_Cg/README.md) | Supplement A.3: binary BP/RNBP/A1/A2 experiments, weights three and five | `verify_results.py`, `run_small.py`, `run_large.py` |
+| [suppB.1_Fp_B5_w4_Cg](suppB.1_Fp_B5_w4_Cg/README.md) | Supplement B.1: odd prime fields, weight four, branch number five | `verify_results.py`, `run_search.py` |
+| [suppB.3_Fp_B6_w5_Cg](suppB.3_Fp_B6_w5_Cg/README.md) | Supplement B.3: odd prime fields, weight five, branch number six | `verify_results.py`, `run_search.py` |
 | [common](common/README.md) | Shared algorithms, solver interfaces, and basic tests | `circrect/` |
 
 ## Directory layout
@@ -24,6 +29,9 @@ code1_github/
   sec4.1.4_Fp_B4_w3/    Section code, README, results/
   sec4.2.4_Fp_B5_w4/    Section code, README, results/
   sec4.3.2_Fp_B6_w5/    Section code, README, results/, reference/
+  suppA.3_F2_Cg/         Binary general circuits, recorded logs, witnesses, figure
+  suppB.1_Fp_B5_w4_Cg/   Signed general circuits, recorded logs, witnesses
+  suppB.3_Fp_B6_w5_Cg/   Signed general circuits, recorded logs, witnesses
   common/               Shared code, dependencies, notebooks, tests
   docs/                 Source hashes and solver inventory
   historical/           Earlier source snapshots and organization notes
@@ -44,6 +52,14 @@ for historical solver information.
 
 Run commands from the root of this directory with a Python environment containing
 the dependencies needed for the selected task:
+
+The new supplementary directories can verify their saved results with Python's
+standard library alone. Repeating the binary searches also requires a C++11
+compiler. Each directory README gives commands and the recorded time budgets;
+fresh searches always write to a new output directory. Complete trial logs are
+losslessly compressed, while table witnesses are directly readable. The two Fp
+directories each contain a frozen copy of their small shared implementation so
+each chapter can be downloaded and checked on its own.
 
 ```sh
 python -m pip install -r common/requirements-scipy.txt
