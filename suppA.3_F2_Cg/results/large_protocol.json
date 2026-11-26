@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-24",
+  "scope": "fixed stratified sample; not all legal affine classes",
+  "sample_source": "E:\\LinearLayers\\runs\\fse_cg_large_20261124\\sample.json",
+  "sample_sha256": "7f128e79295278d37f5f22408434e90af58d80d096a8a9573911457029eea69f",
+  "algorithms": [
+    "RNBP",
+    "A1",
+    "A2"
+  ],
+  "seed_protocol": "successive complete attempts use seeds 0,1,... independently per task",
+  "budget_seconds_per_matrix_algorithm": {
+    "32": 3600,
+    "64": 7200
+  },
+  "total_tasks": 60,
+  "total_task_hours": 90.0,
+  "workers": 8,
+  "budget_clock": "active task wall time includes construction, process launch, validation and I/O; queue wait excluded",
+  "single_construction_limit": "remaining cumulative task budget; no 10s/60s preliminary cap",
+  "stability": "no gate-count improvement during final half of budget; not statistical confidence or optimality",
+  "completion_count_caution_threshold": 20,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.12",
+  "compiler": "g++ (Rev8, Built by MSYS2 project) 15.2.0",
+  "compiler_flags": "-std=c++11 -O2",
+  "source_sha256": "ba7a7440e57a8f3dd475991e038dc7ff228e2867bec04afb6540fc1f2b3efcf6",
+  "executable_sha256": "fc98cd41461aca8c6080319f4a1286ed40bb9256990233d825b6eee0760f98c8",
+  "prior_constructive_unrestricted_upper_bounds": {
+    "32": 80,
+    "64": 160
+  },
+  "prior_connected_upper_bounds": {
+    "32": 86,
+    "64": 171
+  },
+  "manuscript_edits": false,
+  "coordinator_source_sha256": "d954c6f95630b24384d93cf52d9b081e8e949e90fd2cf0d1b214d14e23392abb",
+  "cpu": "Intel(R) Xeon(R) W-2255 CPU @ 3.70GHz"
+}

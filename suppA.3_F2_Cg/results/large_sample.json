@@ -1,0 +1,346 @@
+{
+  "selection_seed_rule": "20261124+n",
+  "selection": "8 connected + 2 disconnected legal affine representatives per n; uniform without replacement per stratum",
+  "candidates": [
+    {
+      "n": 32,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        3,
+        23,
+        27
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 8,
+      "inverse_weight": 19,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 32,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        3,
+        17,
+        28
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 17,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 32,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        3,
+        8,
+        14
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 8,
+      "inverse_weight": 15,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 32,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        3,
+        14,
+        16
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 19,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 32,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        2,
+        11,
+        15
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 17,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 32,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        4,
+        6,
+        18
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 15,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 32,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        4,
+        8,
+        18
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 19,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 32,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        2,
+        13,
+        21
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 19,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 32,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        2,
+        6,
+        10,
+        16
+      ],
+      "connected": false,
+      "components": 2,
+      "forward_pair_min": 6,
+      "inverse_weight": 7,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 32,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        2,
+        6,
+        8,
+        18
+      ],
+      "connected": false,
+      "components": 2,
+      "forward_pair_min": 6,
+      "inverse_weight": 11,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 64,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        3,
+        19,
+        41
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 8,
+      "inverse_weight": 19,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 64,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        4,
+        11,
+        36
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 35,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 64,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        7,
+        47,
+        54
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 31,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 64,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        4,
+        27,
+        41
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 37,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 64,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        2,
+        9,
+        22
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 33,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 64,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        3,
+        45,
+        59
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 8,
+      "inverse_weight": 31,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 64,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        3,
+        33,
+        40
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 29,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 64,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        1,
+        2,
+        22,
+        37
+      ],
+      "connected": true,
+      "components": 1,
+      "forward_pair_min": 6,
+      "inverse_weight": 39,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 64,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        2,
+        4,
+        10,
+        50
+      ],
+      "connected": false,
+      "components": 2,
+      "forward_pair_min": 6,
+      "inverse_weight": 13,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    },
+    {
+      "n": 64,
+      "weight": 5,
+      "branch": 6,
+      "support": [
+        0,
+        2,
+        4,
+        8,
+        38
+      ],
+      "connected": false,
+      "components": 2,
+      "forward_pair_min": 6,
+      "inverse_weight": 13,
+      "property_certificate": "exact Gaussian inverse + weight 1/2 checks in both directions; M inverse=I verified"
+    }
+  ]
+}

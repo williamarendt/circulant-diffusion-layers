@@ -1,0 +1,902 @@
+[
+  {
+    "id": "n32_m08_RNBP",
+    "n": 32,
+    "support": [
+      0,
+      2,
+      6,
+      10,
+      16
+    ],
+    "connected": false,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m03_A1",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      4,
+      27,
+      41
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m01_A1",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      4,
+      11,
+      36
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m02_RNBP",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      8,
+      14
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m04_A1",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      2,
+      11,
+      15
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m07_A2",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      2,
+      22,
+      37
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m07_RNBP",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      2,
+      13,
+      21
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m06_A1",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      3,
+      33,
+      40
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m01_RNBP",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      4,
+      11,
+      36
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m00_RNBP",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      3,
+      19,
+      41
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m04_RNBP",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      2,
+      11,
+      15
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m08_RNBP",
+    "n": 64,
+    "support": [
+      0,
+      2,
+      4,
+      10,
+      50
+    ],
+    "connected": false,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m03_A2",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      4,
+      27,
+      41
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m08_A1",
+    "n": 32,
+    "support": [
+      0,
+      2,
+      6,
+      10,
+      16
+    ],
+    "connected": false,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m07_A2",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      2,
+      13,
+      21
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m06_RNBP",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      3,
+      33,
+      40
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m09_A1",
+    "n": 64,
+    "support": [
+      0,
+      2,
+      4,
+      8,
+      38
+    ],
+    "connected": false,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m06_A1",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      4,
+      8,
+      18
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m05_RNBP",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      3,
+      45,
+      59
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m03_RNBP",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      4,
+      27,
+      41
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m09_A2",
+    "n": 64,
+    "support": [
+      0,
+      2,
+      4,
+      8,
+      38
+    ],
+    "connected": false,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m02_A1",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      8,
+      14
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m05_A2",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      3,
+      45,
+      59
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m05_A2",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      4,
+      6,
+      18
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m04_A2",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      2,
+      11,
+      15
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m01_A2",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      17,
+      28
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m06_A2",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      4,
+      8,
+      18
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m08_A2",
+    "n": 32,
+    "support": [
+      0,
+      2,
+      6,
+      10,
+      16
+    ],
+    "connected": false,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m07_RNBP",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      2,
+      22,
+      37
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m00_A2",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      3,
+      19,
+      41
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m08_A1",
+    "n": 64,
+    "support": [
+      0,
+      2,
+      4,
+      10,
+      50
+    ],
+    "connected": false,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m04_RNBP",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      2,
+      9,
+      22
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m05_A1",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      4,
+      6,
+      18
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m07_A1",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      2,
+      13,
+      21
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m00_A1",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      23,
+      27
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m06_RNBP",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      4,
+      8,
+      18
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m05_A1",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      3,
+      45,
+      59
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m03_RNBP",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      14,
+      16
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m01_RNBP",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      17,
+      28
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m01_A2",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      4,
+      11,
+      36
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m02_A1",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      7,
+      47,
+      54
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m08_A2",
+    "n": 64,
+    "support": [
+      0,
+      2,
+      4,
+      10,
+      50
+    ],
+    "connected": false,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m01_A1",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      17,
+      28
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m05_RNBP",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      4,
+      6,
+      18
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m02_RNBP",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      7,
+      47,
+      54
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m09_RNBP",
+    "n": 32,
+    "support": [
+      0,
+      2,
+      6,
+      8,
+      18
+    ],
+    "connected": false,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m09_A1",
+    "n": 32,
+    "support": [
+      0,
+      2,
+      6,
+      8,
+      18
+    ],
+    "connected": false,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m03_A1",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      14,
+      16
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m00_A1",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      3,
+      19,
+      41
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m09_A2",
+    "n": 32,
+    "support": [
+      0,
+      2,
+      6,
+      8,
+      18
+    ],
+    "connected": false,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m02_A2",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      7,
+      47,
+      54
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m02_A2",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      8,
+      14
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m04_A2",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      2,
+      9,
+      22
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m06_A2",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      3,
+      33,
+      40
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n64_m09_RNBP",
+    "n": 64,
+    "support": [
+      0,
+      2,
+      4,
+      8,
+      38
+    ],
+    "connected": false,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m00_A2",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      23,
+      27
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n32_m00_RNBP",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      23,
+      27
+    ],
+    "connected": true,
+    "algorithm": "RNBP",
+    "option": 1,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m04_A1",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      2,
+      9,
+      22
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 7200
+  },
+  {
+    "id": "n32_m03_A2",
+    "n": 32,
+    "support": [
+      0,
+      1,
+      3,
+      14,
+      16
+    ],
+    "connected": true,
+    "algorithm": "A2",
+    "option": 3,
+    "budget_seconds": 3600
+  },
+  {
+    "id": "n64_m07_A1",
+    "n": 64,
+    "support": [
+      0,
+      1,
+      2,
+      22,
+      37
+    ],
+    "connected": true,
+    "algorithm": "A1",
+    "option": 2,
+    "budget_seconds": 7200
+  }
+]

@@ -1,0 +1,390 @@
+{
+  "audit_utc": "2026-11-25T03:55:33.421942+00:00",
+  "started_china": "2026-11-24T15:49:14.720981+08:00",
+  "finished_china": "2026-11-25T03:49:15.384383+08:00",
+  "counts": {
+    "complete": 60
+  },
+  "total_completed_circuits": 6829,
+  "total_task_hours": 90.0,
+  "groups": [
+    {
+      "n": 32,
+      "algorithm": "RNBP",
+      "tasks": 10,
+      "complete_circuits": 5622,
+      "zero_completion_tasks": 0,
+      "min_completed_seeds": 13,
+      "max_completed_seeds": 1623,
+      "best": {
+        "task_id": "n32_m09_RNBP",
+        "n": 32,
+        "support": [
+          0,
+          2,
+          6,
+          8,
+          18
+        ],
+        "connected": false,
+        "algorithm": "RNBP",
+        "seed": 174,
+        "started_utc": "2026-11-24T15:57:49.599156+00:00",
+        "allowed_seconds": 3085.250123300124,
+        "elapsed_seconds": 7.439786700066179,
+        "gates": 92,
+        "raw_gates": 92,
+        "depth": 8,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000174.txt"
+      },
+      "best_connected": {
+        "task_id": "n32_m03_RNBP",
+        "n": 32,
+        "support": [
+          0,
+          1,
+          3,
+          14,
+          16
+        ],
+        "connected": true,
+        "algorithm": "RNBP",
+        "seed": 740,
+        "started_utc": "2026-11-24T14:20:28.113243+00:00",
+        "allowed_seconds": 1727.1410624999553,
+        "elapsed_seconds": 1.6844411003403366,
+        "gates": 93,
+        "raw_gates": 93,
+        "depth": 5,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000740.txt"
+      },
+      "best_by_depth_cap": {
+        "3": 96,
+        "4": 95
+      }
+    },
+    {
+      "n": 32,
+      "algorithm": "A1",
+      "tasks": 10,
+      "complete_circuits": 466,
+      "zero_completion_tasks": 0,
+      "min_completed_seeds": 14,
+      "max_completed_seeds": 89,
+      "best": {
+        "task_id": "n32_m03_A1",
+        "n": 32,
+        "support": [
+          0,
+          1,
+          3,
+          14,
+          16
+        ],
+        "connected": true,
+        "algorithm": "A1",
+        "seed": 16,
+        "started_utc": "2026-11-24T16:01:08.818927+00:00",
+        "allowed_seconds": 2886.3561124997213,
+        "elapsed_seconds": 28.83176669990644,
+        "gates": 93,
+        "raw_gates": 93,
+        "depth": 7,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000016.txt"
+      },
+      "best_connected": {
+        "task_id": "n32_m03_A1",
+        "n": 32,
+        "support": [
+          0,
+          1,
+          3,
+          14,
+          16
+        ],
+        "connected": true,
+        "algorithm": "A1",
+        "seed": 16,
+        "started_utc": "2026-11-24T16:01:08.818927+00:00",
+        "allowed_seconds": 2886.3561124997213,
+        "elapsed_seconds": 28.83176669990644,
+        "gates": 93,
+        "raw_gates": 93,
+        "depth": 7,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000016.txt"
+      },
+      "best_by_depth_cap": {
+        "3": 98,
+        "4": 96
+      }
+    },
+    {
+      "n": 32,
+      "algorithm": "A2",
+      "tasks": 10,
+      "complete_circuits": 451,
+      "zero_completion_tasks": 0,
+      "min_completed_seeds": 13,
+      "max_completed_seeds": 85,
+      "best": {
+        "task_id": "n32_m09_A2",
+        "n": 32,
+        "support": [
+          0,
+          2,
+          6,
+          8,
+          18
+        ],
+        "connected": false,
+        "algorithm": "A2",
+        "seed": 5,
+        "started_utc": "2026-11-24T16:52:48.309077+00:00",
+        "allowed_seconds": 3386.56548999995,
+        "elapsed_seconds": 31.591764900367707,
+        "gates": 94,
+        "raw_gates": 94,
+        "depth": 7,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000005.txt"
+      },
+      "best_connected": {
+        "task_id": "n32_m03_A2",
+        "n": 32,
+        "support": [
+          0,
+          1,
+          3,
+          14,
+          16
+        ],
+        "connected": true,
+        "algorithm": "A2",
+        "seed": 42,
+        "started_utc": "2026-11-24T18:21:31.983049+00:00",
+        "allowed_seconds": 1663.270125000272,
+        "elapsed_seconds": 45.6682086000219,
+        "gates": 95,
+        "raw_gates": 95,
+        "depth": 5,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000042.txt"
+      },
+      "best_by_depth_cap": {
+        "3": 98,
+        "4": 96
+      }
+    },
+    {
+      "n": 64,
+      "algorithm": "RNBP",
+      "tasks": 10,
+      "complete_circuits": 285,
+      "zero_completion_tasks": 4,
+      "min_completed_seeds": 0,
+      "max_completed_seeds": 116,
+      "best": {
+        "task_id": "n64_m03_RNBP",
+        "n": 64,
+        "support": [
+          0,
+          1,
+          4,
+          27,
+          41
+        ],
+        "connected": true,
+        "algorithm": "RNBP",
+        "seed": 0,
+        "started_utc": "2026-11-24T10:49:15.050573+00:00",
+        "allowed_seconds": 7199.993392200209,
+        "elapsed_seconds": 48.2680287999101,
+        "gates": 192,
+        "raw_gates": 192,
+        "depth": 3,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000000.txt"
+      },
+      "best_connected": {
+        "task_id": "n64_m03_RNBP",
+        "n": 64,
+        "support": [
+          0,
+          1,
+          4,
+          27,
+          41
+        ],
+        "connected": true,
+        "algorithm": "RNBP",
+        "seed": 0,
+        "started_utc": "2026-11-24T10:49:15.050573+00:00",
+        "allowed_seconds": 7199.993392200209,
+        "elapsed_seconds": 48.2680287999101,
+        "gates": 192,
+        "raw_gates": 192,
+        "depth": 3,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000000.txt"
+      },
+      "best_by_depth_cap": {
+        "3": 192,
+        "4": 192
+      }
+    },
+    {
+      "n": 64,
+      "algorithm": "A1",
+      "tasks": 10,
+      "complete_circuits": 3,
+      "zero_completion_tasks": 7,
+      "min_completed_seeds": 0,
+      "max_completed_seeds": 1,
+      "best": {
+        "task_id": "n64_m03_A1",
+        "n": 64,
+        "support": [
+          0,
+          1,
+          4,
+          27,
+          41
+        ],
+        "connected": true,
+        "algorithm": "A1",
+        "seed": 0,
+        "started_utc": "2026-11-24T07:49:14.852706+00:00",
+        "allowed_seconds": 7199.869712099899,
+        "elapsed_seconds": 4639.000499299727,
+        "gates": 192,
+        "raw_gates": 192,
+        "depth": 3,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000000.txt"
+      },
+      "best_connected": {
+        "task_id": "n64_m03_A1",
+        "n": 64,
+        "support": [
+          0,
+          1,
+          4,
+          27,
+          41
+        ],
+        "connected": true,
+        "algorithm": "A1",
+        "seed": 0,
+        "started_utc": "2026-11-24T07:49:14.852706+00:00",
+        "allowed_seconds": 7199.869712099899,
+        "elapsed_seconds": 4639.000499299727,
+        "gates": 192,
+        "raw_gates": 192,
+        "depth": 3,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000000.txt"
+      },
+      "best_by_depth_cap": {
+        "3": 192,
+        "4": 192
+      }
+    },
+    {
+      "n": 64,
+      "algorithm": "A2",
+      "tasks": 10,
+      "complete_circuits": 2,
+      "zero_completion_tasks": 8,
+      "min_completed_seeds": 0,
+      "max_completed_seeds": 1,
+      "best": {
+        "task_id": "n64_m03_A2",
+        "n": 64,
+        "support": [
+          0,
+          1,
+          4,
+          27,
+          41
+        ],
+        "connected": true,
+        "algorithm": "A2",
+        "seed": 0,
+        "started_utc": "2026-11-24T09:49:14.745404+00:00",
+        "allowed_seconds": 7199.997677499894,
+        "elapsed_seconds": 4943.1779116997495,
+        "gates": 192,
+        "raw_gates": 192,
+        "depth": 3,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000000.txt"
+      },
+      "best_connected": {
+        "task_id": "n64_m03_A2",
+        "n": 64,
+        "support": [
+          0,
+          1,
+          4,
+          27,
+          41
+        ],
+        "connected": true,
+        "algorithm": "A2",
+        "seed": 0,
+        "started_utc": "2026-11-24T09:49:14.745404+00:00",
+        "allowed_seconds": 7199.997677499894,
+        "elapsed_seconds": 4943.1779116997495,
+        "gates": 192,
+        "raw_gates": 192,
+        "depth": 3,
+        "dead_gates": 0,
+        "verified": true,
+        "status": "complete",
+        "circuit": "circuits/seed_00000000.txt"
+      },
+      "best_by_depth_cap": {
+        "3": 192,
+        "4": 192
+      }
+    }
+  ],
+  "known_upper_bounds": {
+    "32": {
+      "unrestricted": 80,
+      "connected": 86
+    },
+    "64": {
+      "unrestricted": 160,
+      "connected": 171
+    }
+  },
+  "recovery": "Global status stopped after a WinError 5 during snapshot replacement. The thread-pool workers continued, and all 60 task states and terminal logs show full fixed-budget completion. No search was restarted.",
+  "interpretation": "Fixed sample of 10 matrices per order, not full class enumeration. Budget exhaustion is not convergence or optimality. No completed circuit is recorded as missing, never as an infinite gate count."
+}

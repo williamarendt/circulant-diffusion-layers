@@ -1,0 +1,19 @@
+Formal n32/n64 experiment: completed and independently audited
+Start (China): 2026-11-24T15:49:14.720981+08:00
+End (China): 2026-11-25T03:49:15.384383+08:00
+60/60 full-budget tasks; 6829 verified completed circuits; 90 task-hours.
+Global status stopped after a WinError 5 during snapshot replacement. The thread-pool workers continued, and all 60 task states and terminal logs show full fixed-budget completion. No search was restarted.
+
+n | algorithm | completed circuits | zero-completion tasks / 10 | best (gates,depth) | connected best
+32 | RNBP | 5622 | 0/10 | (92, 8) | (93, 5)
+32 | A1 | 466 | 0/10 | (93, 7) | (93, 7)
+32 | A2 | 451 | 0/10 | (94, 7) | (95, 5)
+64 | RNBP | 285 | 4/10 | (192, 3) | (192, 3)
+64 | A1 | 3 | 7/10 | (192, 3) | (192, 3)
+64 | A2 | 2 | 8/10 | (192, 3) | (192, 3)
+
+No improvement of known unrestricted upper bounds 80/160 or connected bounds 86/171.
+Fixed sample of 10 matrices per order, not full class enumeration. Budget exhaustion is not convergence or optimality. No completed circuit is recorded as missing, never as an infinite gate count.
+
+Every completed circuit was re-read and symbolically reverified by analyze_results.py.
+Terminal partial constructions were not counted as completed seeds.

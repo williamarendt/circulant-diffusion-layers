@@ -1,0 +1,10 @@
+{
+  "base": "runs\\fse_cg_expanded_20261124\\author_adapted.cpp",
+  "base_sha256": "ebfe6bd4033053258fddcc84c299258cdf8cc119c7344c3126ed9aa74de9c0ca",
+  "changes": [
+    "SIZE64",
+    "uint64_t throughout for unsigned shifts/arithmetic including bit63",
+    "allow exactly 64 input bits; unsigned last power-of-two wrap is defined"
+  ],
+  "unchanged": "selection criteria, seeded randomness, distance recursion, and one construction per invocation"
+}

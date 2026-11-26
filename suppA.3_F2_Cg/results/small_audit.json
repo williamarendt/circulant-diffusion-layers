@@ -1,0 +1,159 @@
+{
+  "cases": [
+    {
+      "case": "n4_w3",
+      "trials": 301,
+      "legal_classes": 1,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "1d098f07ac297041f21fd7508de710ff839986cc3d2501ff812219e95009ad8b"
+    },
+    {
+      "case": "n5_w3",
+      "trials": 301,
+      "legal_classes": 1,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "fd67b1666564c1beaab188e9acefbe5631025c3307a750bec6dff5a8a121189f"
+    },
+    {
+      "case": "n6_w3",
+      "trials": 301,
+      "legal_classes": 1,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "df63f3e2ccb9168841dda9fd1a843d72e27a1cee02a08f36c08c18aaf0e9fb10"
+    },
+    {
+      "case": "n7_w3",
+      "trials": 301,
+      "legal_classes": 1,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "0754c2d15b5120c0dd621e44ad9ebff2bbb5874fa84ae85488169e58ad80fd0a"
+    },
+    {
+      "case": "n8_w3",
+      "trials": 1204,
+      "legal_classes": 4,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "9f628e02e06bd1a2ac9bcf40fd2bb23127648006548a441175523e4054a4bfae"
+    },
+    {
+      "case": "n9_w3",
+      "trials": 301,
+      "legal_classes": 1,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "f440280118bfe4d7cbb99ba6990c1781d7b6bac97e3797770032c4f7a54cc12a"
+    },
+    {
+      "case": "n15_w3",
+      "trials": 903,
+      "legal_classes": 3,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "14a1157b5eade013ba8eaa86e1ec67598079fdb5988e0c715fba55bb9ddded59"
+    },
+    {
+      "case": "n21_w3",
+      "trials": 1204,
+      "legal_classes": 4,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "ac9c8e1b60b70c774a5478b174160603863bfdc60821e39b0c1f9ba00dcabd8b"
+    },
+    {
+      "case": "n27_w3",
+      "trials": 1505,
+      "legal_classes": 5,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "02ad423ff4971260cdc9fce53c9a28ecbd3a7edb2b6020352313ea0143b9aee5"
+    },
+    {
+      "case": "n10_w5",
+      "trials": 903,
+      "legal_classes": 3,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "a88d811eadff265c15039ff377a1c6737cdef95da2cbde3da67ee8a95c422c0f"
+    },
+    {
+      "case": "n11_w5",
+      "trials": 1505,
+      "legal_classes": 5,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "76f0149cfe958499d5f125cdc1132a123aa4dec4480089346977ad5d2c5979e0"
+    },
+    {
+      "case": "n12_w5",
+      "trials": 3010,
+      "legal_classes": 10,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "a3983af33dddff808e89a0704d48e079b73d2a3c4bbbc314500c5eb3338089d3"
+    },
+    {
+      "case": "n13_w5",
+      "trials": 2709,
+      "legal_classes": 9,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "be5a659b3eef2fd6bdcc15bdf21d18fc08dc076496857e155fc5efb2db3b7b39"
+    },
+    {
+      "case": "n14_w5",
+      "trials": 4816,
+      "legal_classes": 16,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "0d3e3ecff82a7fc1c22353527a9a285ae98c151dfbc4e1811e060ca5c4f25f66"
+    },
+    {
+      "case": "n15_w5",
+      "trials": 5117,
+      "legal_classes": 17,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "cc732d41bb50df79c781539ae1c7128cfa8a320518e667447945eb9268867e84"
+    },
+    {
+      "case": "n16_w5",
+      "trials": 10836,
+      "legal_classes": 36,
+      "all_circuits_reverified": true,
+      "timeouts": 0,
+      "errors": 0,
+      "circuits_sha256": "480dd239c28dbf3dee35be847b6b72491d946061a3b5986c25f8e4bfe0c8db98"
+    }
+  ],
+  "total_trials": 35217,
+  "timeouts": 0,
+  "winning_seed_replays": 32,
+  "hardware": {
+    "cpu": "Intel(R) Xeon(R) W-2255 CPU @ 3.70GHz",
+    "logical_processors": 20,
+    "source": "Windows CPU registry and os.cpu_count"
+  },
+  "execution": "up to three concurrent Python case runners, each invoking single-threaded optimizer processes",
+  "max_single_construction_seconds": 0.5372522999532521,
+  "legal_affine_classes": 117
+}

@@ -1,0 +1,13 @@
+{
+  "source": "Paper\\fse_submission\\literature\\XORreduce_author_code\\thomaspeyrin-XORreduce-200f743\\main_globalopt.cpp",
+  "source_sha256": "b50056862a8add4a5d9d1599bad2000095c4d75df929639e396cea9518367e04",
+  "changes": [
+    "one complete trial per invocation; explicit algorithm and seed arguments",
+    "seed RNG once rather than each selection from wall clock",
+    "OPTION=0 deterministic BP (sum, norm, first pair); 1=RNBP, 2=A1, 3=A2",
+    "arrays SIZE=32 for expanded run; reset target count rather than hardcoded 32",
+    "delete[] replaces mismatched free(new[])",
+    "64-bit popcount matches signal storage"
+  ],
+  "scope": "dimensions through 27 only; not an n64 adaptation"
+}
